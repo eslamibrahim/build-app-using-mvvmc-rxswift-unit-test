@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1252D35BB0EDF1BB8BAE17CE /* Pods_Sary_flagship_iOS_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759644EA4B985F94E6B5D18D /* Pods_Sary_flagship_iOS_AppTests.framework */; };
+		8E609A237AC2277203BC0E5F /* Pods_Sary_flagship_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F3E25FB819AE67841AD33D /* Pods_Sary_flagship_iOS_App.framework */; };
+		96B327B7C6196159E1DD5573 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F93903D01FAFC61D9083C18 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework */; };
+		A6862DC227CFB22B00129FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC127CFB22B00129FE3 /* AppDelegate.swift */; };
+		A6862DC427CFB22B00129FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC327CFB22B00129FE3 /* SceneDelegate.swift */; };
+		A6862DC627CFB22B00129FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC527CFB22B00129FE3 /* ViewController.swift */; };
+		A6862DC927CFB22B00129FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6862DC727CFB22B00129FE3 /* Main.storyboard */; };
+		A6862DCB27CFB22E00129FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6862DCA27CFB22E00129FE3 /* Assets.xcassets */; };
+		A6862DCE27CFB22E00129FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6862DCC27CFB22E00129FE3 /* LaunchScreen.storyboard */; };
+		A6862DD927CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DD827CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift */; };
+		A6862DE327CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DE227CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift */; };
+		A6862DE527CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DE427CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6862DD527CFB22E00129FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6862DB627CFB22B00129FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6862DBD27CFB22B00129FE3;
+			remoteInfo = "Sary flagship iOS App";
+		};
+		A6862DDF27CFB22E00129FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6862DB627CFB22B00129FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6862DBD27CFB22B00129FE3;
+			remoteInfo = "Sary flagship iOS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1042B2BDB70BF7F2BA5C73 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CDBBE2D965C524AB00C5FDD /* Pods-Sary flagship iOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS App.release.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS App/Pods-Sary flagship iOS App.release.xcconfig"; sourceTree = "<group>"; };
+		759644EA4B985F94E6B5D18D /* Pods_Sary_flagship_iOS_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sary_flagship_iOS_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F666CA968AC1ADABCB8F26D /* Pods-Sary flagship iOS AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS AppTests.release.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS AppTests/Pods-Sary flagship iOS AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		95389D3DC2FD341D5B25D2C2 /* Pods-Sary flagship iOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS App.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS App/Pods-Sary flagship iOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		9F93903D01FAFC61D9083C18 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6862DBE27CFB22B00129FE3 /* Sary flagship iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sary flagship iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6862DC127CFB22B00129FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6862DC327CFB22B00129FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6862DC527CFB22B00129FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6862DC827CFB22B00129FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6862DCA27CFB22E00129FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6862DCD27CFB22E00129FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6862DCF27CFB22E00129FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6862DD427CFB22E00129FE3 /* Sary flagship iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sary flagship iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6862DD827CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sary_flagship_iOS_AppTests.swift; sourceTree = "<group>"; };
+		A6862DDE27CFB22E00129FE3 /* Sary flagship iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sary flagship iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6862DE227CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sary_flagship_iOS_AppUITests.swift; sourceTree = "<group>"; };
+		A6862DE427CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sary_flagship_iOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE6F1C3ADB51EB64C596313 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F3E25FB819AE67841AD33D /* Pods_Sary_flagship_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sary_flagship_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8758256C963E13361346C80 /* Pods-Sary flagship iOS AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS AppTests/Pods-Sary flagship iOS AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6862DBB27CFB22B00129FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E609A237AC2277203BC0E5F /* Pods_Sary_flagship_iOS_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6862DD127CFB22E00129FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1252D35BB0EDF1BB8BAE17CE /* Pods_Sary_flagship_iOS_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6862DDB27CFB22E00129FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B327B7C6196159E1DD5573 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A238F302EA13EB60C4D7E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3E25FB819AE67841AD33D /* Pods_Sary_flagship_iOS_App.framework */,
+				9F93903D01FAFC61D9083C18 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework */,
+				759644EA4B985F94E6B5D18D /* Pods_Sary_flagship_iOS_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72C1980067B38B8B221A084A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95389D3DC2FD341D5B25D2C2 /* Pods-Sary flagship iOS App.debug.xcconfig */,
+				4CDBBE2D965C524AB00C5FDD /* Pods-Sary flagship iOS App.release.xcconfig */,
+				BDE6F1C3ADB51EB64C596313 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig */,
+				1B1042B2BDB70BF7F2BA5C73 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.release.xcconfig */,
+				D8758256C963E13361346C80 /* Pods-Sary flagship iOS AppTests.debug.xcconfig */,
+				8F666CA968AC1ADABCB8F26D /* Pods-Sary flagship iOS AppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6862DB527CFB22B00129FE3 = {
+			isa = PBXGroup;
+			children = (
+				A6862DC027CFB22B00129FE3 /* Sary flagship iOS App */,
+				A6862DD727CFB22E00129FE3 /* Sary flagship iOS AppTests */,
+				A6862DE127CFB22E00129FE3 /* Sary flagship iOS AppUITests */,
+				A6862DBF27CFB22B00129FE3 /* Products */,
+				72C1980067B38B8B221A084A /* Pods */,
+				0A238F302EA13EB60C4D7E57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6862DBF27CFB22B00129FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6862DBE27CFB22B00129FE3 /* Sary flagship iOS App.app */,
+				A6862DD427CFB22E00129FE3 /* Sary flagship iOS AppTests.xctest */,
+				A6862DDE27CFB22E00129FE3 /* Sary flagship iOS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6862DC027CFB22B00129FE3 /* Sary flagship iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				A6862DC127CFB22B00129FE3 /* AppDelegate.swift */,
+				A6862DC327CFB22B00129FE3 /* SceneDelegate.swift */,
+				A6862DC527CFB22B00129FE3 /* ViewController.swift */,
+				A6862DC727CFB22B00129FE3 /* Main.storyboard */,
+				A6862DCA27CFB22E00129FE3 /* Assets.xcassets */,
+				A6862DCC27CFB22E00129FE3 /* LaunchScreen.storyboard */,
+				A6862DCF27CFB22E00129FE3 /* Info.plist */,
+			);
+			path = "Sary flagship iOS App";
+			sourceTree = "<group>";
+		};
+		A6862DD727CFB22E00129FE3 /* Sary flagship iOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6862DD827CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift */,
+			);
+			path = "Sary flagship iOS AppTests";
+			sourceTree = "<group>";
+		};
+		A6862DE127CFB22E00129FE3 /* Sary flagship iOS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6862DE227CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift */,
+				A6862DE427CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift */,
+			);
+			path = "Sary flagship iOS AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6862DBD27CFB22B00129FE3 /* Sary flagship iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6862DE827CFB22E00129FE3 /* Build configuration list for PBXNativeTarget "Sary flagship iOS App" */;
+			buildPhases = (
+				FC2AED0EB90DFF364D3D181B /* [CP] Check Pods Manifest.lock */,
+				A6862DBA27CFB22B00129FE3 /* Sources */,
+				A6862DBB27CFB22B00129FE3 /* Frameworks */,
+				A6862DBC27CFB22B00129FE3 /* Resources */,
+				5B44E3893DEC761D60059775 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sary flagship iOS App";
+			productName = "Sary flagship iOS App";
+			productReference = A6862DBE27CFB22B00129FE3 /* Sary flagship iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6862DD327CFB22E00129FE3 /* Sary flagship iOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6862DEB27CFB22E00129FE3 /* Build configuration list for PBXNativeTarget "Sary flagship iOS AppTests" */;
+			buildPhases = (
+				F9DD88D5C4165F4A0EB20B04 /* [CP] Check Pods Manifest.lock */,
+				A6862DD027CFB22E00129FE3 /* Sources */,
+				A6862DD127CFB22E00129FE3 /* Frameworks */,
+				A6862DD227CFB22E00129FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6862DD627CFB22E00129FE3 /* PBXTargetDependency */,
+			);
+			name = "Sary flagship iOS AppTests";
+			productName = "Sary flagship iOS AppTests";
+			productReference = A6862DD427CFB22E00129FE3 /* Sary flagship iOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6862DDD27CFB22E00129FE3 /* Sary flagship iOS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6862DEE27CFB22E00129FE3 /* Build configuration list for PBXNativeTarget "Sary flagship iOS AppUITests" */;
+			buildPhases = (
+				D7AF5C50157315387B4586D6 /* [CP] Check Pods Manifest.lock */,
+				A6862DDA27CFB22E00129FE3 /* Sources */,
+				A6862DDB27CFB22E00129FE3 /* Frameworks */,
+				A6862DDC27CFB22E00129FE3 /* Resources */,
+				738EB914B350FC38E622D0FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6862DE027CFB22E00129FE3 /* PBXTargetDependency */,
+			);
+			name = "Sary flagship iOS AppUITests";
+			productName = "Sary flagship iOS AppUITests";
+			productReference = A6862DDE27CFB22E00129FE3 /* Sary flagship iOS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6862DB627CFB22B00129FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A6862DBD27CFB22B00129FE3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A6862DD327CFB22E00129FE3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A6862DBD27CFB22B00129FE3;
+					};
+					A6862DDD27CFB22E00129FE3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A6862DBD27CFB22B00129FE3;
+					};
+				};
+			};
+			buildConfigurationList = A6862DB927CFB22B00129FE3 /* Build configuration list for PBXProject "Sary flagship iOS App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6862DB527CFB22B00129FE3;
+			productRefGroup = A6862DBF27CFB22B00129FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6862DBD27CFB22B00129FE3 /* Sary flagship iOS App */,
+				A6862DD327CFB22E00129FE3 /* Sary flagship iOS AppTests */,
+				A6862DDD27CFB22E00129FE3 /* Sary flagship iOS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6862DBC27CFB22B00129FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6862DCE27CFB22E00129FE3 /* LaunchScreen.storyboard in Resources */,
+				A6862DCB27CFB22E00129FE3 /* Assets.xcassets in Resources */,
+				A6862DC927CFB22B00129FE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6862DD227CFB22E00129FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6862DDC27CFB22E00129FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B44E3893DEC761D60059775 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sary flagship iOS App/Pods-Sary flagship iOS App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sary flagship iOS App/Pods-Sary flagship iOS App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sary flagship iOS App/Pods-Sary flagship iOS App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738EB914B350FC38E622D0FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AF5C50157315387B4586D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DD88D5C4165F4A0EB20B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sary flagship iOS AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2AED0EB90DFF364D3D181B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sary flagship iOS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6862DBA27CFB22B00129FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6862DC627CFB22B00129FE3 /* ViewController.swift in Sources */,
+				A6862DC227CFB22B00129FE3 /* AppDelegate.swift in Sources */,
+				A6862DC427CFB22B00129FE3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6862DD027CFB22E00129FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6862DD927CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6862DDA27CFB22E00129FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6862DE327CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift in Sources */,
+				A6862DE527CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6862DD627CFB22E00129FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6862DBD27CFB22B00129FE3 /* Sary flagship iOS App */;
+			targetProxy = A6862DD527CFB22E00129FE3 /* PBXContainerItemProxy */;
+		};
+		A6862DE027CFB22E00129FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6862DBD27CFB22B00129FE3 /* Sary flagship iOS App */;
+			targetProxy = A6862DDF27CFB22E00129FE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6862DC727CFB22B00129FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6862DC827CFB22B00129FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6862DCC27CFB22E00129FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6862DCD27CFB22E00129FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6862DE627CFB22E00129FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6862DE727CFB22E00129FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6862DE927CFB22E00129FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95389D3DC2FD341D5B25D2C2 /* Pods-Sary flagship iOS App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHN4T4ME84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sary flagship iOS App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Sary-flagship-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6862DEA27CFB22E00129FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDBBE2D965C524AB00C5FDD /* Pods-Sary flagship iOS App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHN4T4ME84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sary flagship iOS App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Sary-flagship-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6862DEC27CFB22E00129FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8758256C963E13361346C80 /* Pods-Sary flagship iOS AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHN4T4ME84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Sary-flagship-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sary flagship iOS App.app/Sary flagship iOS App";
+			};
+			name = Debug;
+		};
+		A6862DED27CFB22E00129FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F666CA968AC1ADABCB8F26D /* Pods-Sary flagship iOS AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHN4T4ME84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Sary-flagship-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sary flagship iOS App.app/Sary flagship iOS App";
+			};
+			name = Release;
+		};
+		A6862DEF27CFB22E00129FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE6F1C3ADB51EB64C596313 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHN4T4ME84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Sary-flagship-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sary flagship iOS App";
+			};
+			name = Debug;
+		};
+		A6862DF027CFB22E00129FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1042B2BDB70BF7F2BA5C73 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SHN4T4ME84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Sary-flagship-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sary flagship iOS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6862DB927CFB22B00129FE3 /* Build configuration list for PBXProject "Sary flagship iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6862DE627CFB22E00129FE3 /* Debug */,
+				A6862DE727CFB22E00129FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6862DE827CFB22E00129FE3 /* Build configuration list for PBXNativeTarget "Sary flagship iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6862DE927CFB22E00129FE3 /* Debug */,
+				A6862DEA27CFB22E00129FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6862DEB27CFB22E00129FE3 /* Build configuration list for PBXNativeTarget "Sary flagship iOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6862DEC27CFB22E00129FE3 /* Debug */,
+				A6862DED27CFB22E00129FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6862DEE27CFB22E00129FE3 /* Build configuration list for PBXNativeTarget "Sary flagship iOS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6862DEF27CFB22E00129FE3 /* Debug */,
+				A6862DF027CFB22E00129FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6862DB627CFB22B00129FE3 /* Project object */;
+}
