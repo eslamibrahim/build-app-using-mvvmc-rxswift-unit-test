@@ -12,11 +12,9 @@ target 'Sary flagship iOS App' do
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   pod "RxGesture", '~> 3.0'
-  pod "RxRealm"
   pod 'Moya/RxSwift', '~> 14.0.0'
   pod 'Swinject', '~> 2.7.1'
   pod 'SwinjectAutoregistration', '~> 2.7.0'
- pod 'RealmSwift', '10.14.0'
 
   target 'Sary flagship iOS AppTests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module Pods_Sary_flagship_iOS_AppTests {
+  umbrella header "Pods-Sary flagship iOS AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

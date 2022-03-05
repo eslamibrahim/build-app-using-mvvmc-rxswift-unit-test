@@ -11,14 +11,53 @@
 		8E609A237AC2277203BC0E5F /* Pods_Sary_flagship_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F3E25FB819AE67841AD33D /* Pods_Sary_flagship_iOS_App.framework */; };
 		96B327B7C6196159E1DD5573 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F93903D01FAFC61D9083C18 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework */; };
 		A6862DC227CFB22B00129FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC127CFB22B00129FE3 /* AppDelegate.swift */; };
-		A6862DC427CFB22B00129FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC327CFB22B00129FE3 /* SceneDelegate.swift */; };
-		A6862DC627CFB22B00129FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC527CFB22B00129FE3 /* ViewController.swift */; };
+		A6862DC627CFB22B00129FE3 /*  SaryHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DC527CFB22B00129FE3 /*  SaryHomeViewController.swift */; };
 		A6862DC927CFB22B00129FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6862DC727CFB22B00129FE3 /* Main.storyboard */; };
 		A6862DCB27CFB22E00129FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6862DCA27CFB22E00129FE3 /* Assets.xcassets */; };
 		A6862DCE27CFB22E00129FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6862DCC27CFB22E00129FE3 /* LaunchScreen.storyboard */; };
 		A6862DD927CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DD827CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift */; };
 		A6862DE327CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DE227CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift */; };
 		A6862DE527CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6862DE427CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift */; };
+		A6F0AEF727D2CB520051197E /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEF627D2CB520051197E /* BannerModel.swift */; };
+		A6F0AEF927D2CBD40051197E /* GenericResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEF827D2CBD40051197E /* GenericResponseModel.swift */; };
+		A6F0AEFB27D2CDC80051197E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFA27D2CDC80051197E /* CategoryModel.swift */; };
+		A6F0AF0327D2DB080051197E /* Container+ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFD27D2DB080051197E /* Container+ViewModels.swift */; };
+		A6F0AF0427D2DB080051197E /* Container+ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFD27D2DB080051197E /* Container+ViewModels.swift */; };
+		A6F0AF0527D2DB080051197E /* Container+ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFD27D2DB080051197E /* Container+ViewModels.swift */; };
+		A6F0AF0627D2DB080051197E /* Container+RegisterDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFE27D2DB080051197E /* Container+RegisterDependencies.swift */; };
+		A6F0AF0727D2DB080051197E /* Container+RegisterDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFE27D2DB080051197E /* Container+RegisterDependencies.swift */; };
+		A6F0AF0827D2DB080051197E /* Container+RegisterDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFE27D2DB080051197E /* Container+RegisterDependencies.swift */; };
+		A6F0AF0927D2DB080051197E /* Container+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFF27D2DB080051197E /* Container+Services.swift */; };
+		A6F0AF0A27D2DB080051197E /* Container+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFF27D2DB080051197E /* Container+Services.swift */; };
+		A6F0AF0B27D2DB080051197E /* Container+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AEFF27D2DB080051197E /* Container+Services.swift */; };
+		A6F0AF0F27D2DB080051197E /* Container+Coordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF0127D2DB080051197E /* Container+Coordinators.swift */; };
+		A6F0AF1027D2DB080051197E /* Container+Coordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF0127D2DB080051197E /* Container+Coordinators.swift */; };
+		A6F0AF1127D2DB080051197E /* Container+Coordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF0127D2DB080051197E /* Container+Coordinators.swift */; };
+		A6F0AF1227D2DB080051197E /* Container+Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF0227D2DB080051197E /* Container+Repositories.swift */; };
+		A6F0AF1327D2DB080051197E /* Container+Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF0227D2DB080051197E /* Container+Repositories.swift */; };
+		A6F0AF1427D2DB080051197E /* Container+Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF0227D2DB080051197E /* Container+Repositories.swift */; };
+		A6F0AF1627D2E3750051197E /* SaryHomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1527D2E3750051197E /* SaryHomeApi.swift */; };
+		A6F0AF1727D2E3750051197E /* SaryHomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1527D2E3750051197E /* SaryHomeApi.swift */; };
+		A6F0AF1827D2E3750051197E /* SaryHomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1527D2E3750051197E /* SaryHomeApi.swift */; };
+		A6F0AF1A27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1927D2E4470051197E /* SaryHomeRemoteServiceManager.swift */; };
+		A6F0AF1B27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1927D2E4470051197E /* SaryHomeRemoteServiceManager.swift */; };
+		A6F0AF1C27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1927D2E4470051197E /* SaryHomeRemoteServiceManager.swift */; };
+		A6F0AF1E27D2E4B70051197E /* MoyaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1D27D2E4B70051197E /* MoyaConfiguration.swift */; };
+		A6F0AF1F27D2E4B70051197E /* MoyaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1D27D2E4B70051197E /* MoyaConfiguration.swift */; };
+		A6F0AF2027D2E4B70051197E /* MoyaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF1D27D2E4B70051197E /* MoyaConfiguration.swift */; };
+		A6F0AF2327D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF2227D2E7EC0051197E /* SaryHomeDashboardViewModel.swift */; };
+		A6F0AF2427D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF2227D2E7EC0051197E /* SaryHomeDashboardViewModel.swift */; };
+		A6F0AF2527D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF2227D2E7EC0051197E /* SaryHomeDashboardViewModel.swift */; };
+		A6F0AF2727D2EB650051197E /* SaryHomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF2627D2EB650051197E /* SaryHomeRepository.swift */; };
+		A6F0AF2827D2EB650051197E /* SaryHomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF2627D2EB650051197E /* SaryHomeRepository.swift */; };
+		A6F0AF2927D2EB650051197E /* SaryHomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0AF2627D2EB650051197E /* SaryHomeRepository.swift */; };
+		A6F4DBBB27D374C700533A5B /* GetBannersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBBA27D374C700533A5B /* GetBannersUseCase.swift */; };
+		A6F4DBBD27D3795400533A5B /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBBC27D3795400533A5B /* BaseViewModel.swift */; };
+		A6F4DBC127D37B5800533A5B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBBF27D37B5700533A5B /* AppCoordinator.swift */; };
+		A6F4DBC227D37B5800533A5B /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC027D37B5800533A5B /* BaseCoordinator.swift */; };
+		A6F4DBC427D37C2300533A5B /* TabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC327D37C2300533A5B /* TabBarConfiguration.swift */; };
+		A6F4DBC627D37DF300533A5B /* SaryHomeCoordinatoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC527D37DF300533A5B /* SaryHomeCoordinatoor.swift */; };
+		A6F4DBC827D387D700533A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC727D387D700533A5B /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +86,7 @@
 		9F93903D01FAFC61D9083C18 /* Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sary_flagship_iOS_App_Sary_flagship_iOS_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6862DBE27CFB22B00129FE3 /* Sary flagship iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sary flagship iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6862DC127CFB22B00129FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6862DC327CFB22B00129FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6862DC527CFB22B00129FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6862DC527CFB22B00129FE3 /*  SaryHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SaryHomeViewController.swift"; sourceTree = "<group>"; };
 		A6862DC827CFB22B00129FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6862DCA27CFB22E00129FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6862DCD27CFB22E00129FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +96,26 @@
 		A6862DDE27CFB22E00129FE3 /* Sary flagship iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sary flagship iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6862DE227CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sary_flagship_iOS_AppUITests.swift; sourceTree = "<group>"; };
 		A6862DE427CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sary_flagship_iOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6F0AEF627D2CB520051197E /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		A6F0AEF827D2CBD40051197E /* GenericResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponseModel.swift; sourceTree = "<group>"; };
+		A6F0AEFA27D2CDC80051197E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		A6F0AEFD27D2DB080051197E /* Container+ViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+ViewModels.swift"; sourceTree = "<group>"; };
+		A6F0AEFE27D2DB080051197E /* Container+RegisterDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+RegisterDependencies.swift"; sourceTree = "<group>"; };
+		A6F0AEFF27D2DB080051197E /* Container+Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Services.swift"; sourceTree = "<group>"; };
+		A6F0AF0127D2DB080051197E /* Container+Coordinators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Coordinators.swift"; sourceTree = "<group>"; };
+		A6F0AF0227D2DB080051197E /* Container+Repositories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Container+Repositories.swift"; sourceTree = "<group>"; };
+		A6F0AF1527D2E3750051197E /* SaryHomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryHomeApi.swift; sourceTree = "<group>"; };
+		A6F0AF1927D2E4470051197E /* SaryHomeRemoteServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryHomeRemoteServiceManager.swift; sourceTree = "<group>"; };
+		A6F0AF1D27D2E4B70051197E /* MoyaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfiguration.swift; sourceTree = "<group>"; };
+		A6F0AF2227D2E7EC0051197E /* SaryHomeDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryHomeDashboardViewModel.swift; sourceTree = "<group>"; };
+		A6F0AF2627D2EB650051197E /* SaryHomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryHomeRepository.swift; sourceTree = "<group>"; };
+		A6F4DBBA27D374C700533A5B /* GetBannersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBannersUseCase.swift; sourceTree = "<group>"; };
+		A6F4DBBC27D3795400533A5B /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		A6F4DBBF27D37B5700533A5B /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A6F4DBC027D37B5800533A5B /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		A6F4DBC327D37C2300533A5B /* TabBarConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConfiguration.swift; sourceTree = "<group>"; };
+		A6F4DBC527D37DF300533A5B /* SaryHomeCoordinatoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryHomeCoordinatoor.swift; sourceTree = "<group>"; };
+		A6F4DBC727D387D700533A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BDE6F1C3ADB51EB64C596313 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7F3E25FB819AE67841AD33D /* Pods_Sary_flagship_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sary_flagship_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8758256C963E13361346C80 /* Pods-Sary flagship iOS AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS AppTests/Pods-Sary flagship iOS AppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +169,6 @@
 				D8758256C963E13361346C80 /* Pods-Sary flagship iOS AppTests.debug.xcconfig */,
 				8F666CA968AC1ADABCB8F26D /* Pods-Sary flagship iOS AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,8 +198,12 @@
 			isa = PBXGroup;
 			children = (
 				A6862DC127CFB22B00129FE3 /* AppDelegate.swift */,
-				A6862DC327CFB22B00129FE3 /* SceneDelegate.swift */,
-				A6862DC527CFB22B00129FE3 /* ViewController.swift */,
+				A6F4DBC727D387D700533A5B /* SceneDelegate.swift */,
+				A6F4DBBE27D37B2E00533A5B /* Coordinator */,
+				A6F0AEFC27D2DB080051197E /* Dependency Injection */,
+				A6F0AEF127D2CA6B0051197E /* DataLayer */,
+				A6F0AF2127D2E7C80051197E /* ViewModels */,
+				A6F0AEF027D2CA5B0051197E /* View */,
 				A6862DC727CFB22B00129FE3 /* Main.storyboard */,
 				A6862DCA27CFB22E00129FE3 /* Assets.xcassets */,
 				A6862DCC27CFB22E00129FE3 /* LaunchScreen.storyboard */,
@@ -166,6 +227,93 @@
 				A6862DE427CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift */,
 			);
 			path = "Sary flagship iOS AppUITests";
+			sourceTree = "<group>";
+		};
+		A6F0AEF027D2CA5B0051197E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6862DC527CFB22B00129FE3 /*  SaryHomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6F0AEF127D2CA6B0051197E /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0AF1D27D2E4B70051197E /* MoyaConfiguration.swift */,
+				A6F4DBB927D374A000533A5B /* UseCases */,
+				A6F0AEF227D2CA7D0051197E /* RemoteServices */,
+				A6F0AEF527D2CAA20051197E /* Models */,
+				A6F0AEF427D2CA930051197E /* Repository */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		A6F0AEF227D2CA7D0051197E /* RemoteServices */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0AF1527D2E3750051197E /* SaryHomeApi.swift */,
+				A6F0AF1927D2E4470051197E /* SaryHomeRemoteServiceManager.swift */,
+			);
+			path = RemoteServices;
+			sourceTree = "<group>";
+		};
+		A6F0AEF427D2CA930051197E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0AF2627D2EB650051197E /* SaryHomeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		A6F0AEF527D2CAA20051197E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0AEF627D2CB520051197E /* BannerModel.swift */,
+				A6F0AEFA27D2CDC80051197E /* CategoryModel.swift */,
+				A6F0AEF827D2CBD40051197E /* GenericResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6F0AEFC27D2DB080051197E /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0AEFD27D2DB080051197E /* Container+ViewModels.swift */,
+				A6F0AEFE27D2DB080051197E /* Container+RegisterDependencies.swift */,
+				A6F0AEFF27D2DB080051197E /* Container+Services.swift */,
+				A6F0AF0127D2DB080051197E /* Container+Coordinators.swift */,
+				A6F0AF0227D2DB080051197E /* Container+Repositories.swift */,
+			);
+			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		A6F0AF2127D2E7C80051197E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBBC27D3795400533A5B /* BaseViewModel.swift */,
+				A6F0AF2227D2E7EC0051197E /* SaryHomeDashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6F4DBB927D374A000533A5B /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBBA27D374C700533A5B /* GetBannersUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		A6F4DBBE27D37B2E00533A5B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBC327D37C2300533A5B /* TabBarConfiguration.swift */,
+				A6F4DBBF27D37B5700533A5B /* AppCoordinator.swift */,
+				A6F4DBC527D37DF300533A5B /* SaryHomeCoordinatoor.swift */,
+				A6F4DBC027D37B5800533A5B /* BaseCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,9 +555,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6862DC627CFB22B00129FE3 /* ViewController.swift in Sources */,
+				A6862DC627CFB22B00129FE3 /*  SaryHomeViewController.swift in Sources */,
+				A6F0AF1227D2DB080051197E /* Container+Repositories.swift in Sources */,
+				A6F0AF1627D2E3750051197E /* SaryHomeApi.swift in Sources */,
+				A6F0AF0627D2DB080051197E /* Container+RegisterDependencies.swift in Sources */,
+				A6F4DBBD27D3795400533A5B /* BaseViewModel.swift in Sources */,
+				A6F4DBC627D37DF300533A5B /* SaryHomeCoordinatoor.swift in Sources */,
+				A6F0AEFB27D2CDC80051197E /* CategoryModel.swift in Sources */,
+				A6F4DBC827D387D700533A5B /* SceneDelegate.swift in Sources */,
+				A6F0AF2327D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */,
+				A6F0AF0927D2DB080051197E /* Container+Services.swift in Sources */,
+				A6F4DBBB27D374C700533A5B /* GetBannersUseCase.swift in Sources */,
 				A6862DC227CFB22B00129FE3 /* AppDelegate.swift in Sources */,
-				A6862DC427CFB22B00129FE3 /* SceneDelegate.swift in Sources */,
+				A6F0AF1E27D2E4B70051197E /* MoyaConfiguration.swift in Sources */,
+				A6F0AF0F27D2DB080051197E /* Container+Coordinators.swift in Sources */,
+				A6F0AF2727D2EB650051197E /* SaryHomeRepository.swift in Sources */,
+				A6F0AEF727D2CB520051197E /* BannerModel.swift in Sources */,
+				A6F4DBC227D37B5800533A5B /* BaseCoordinator.swift in Sources */,
+				A6F4DBC127D37B5800533A5B /* AppCoordinator.swift in Sources */,
+				A6F0AEF927D2CBD40051197E /* GenericResponseModel.swift in Sources */,
+				A6F4DBC427D37C2300533A5B /* TabBarConfiguration.swift in Sources */,
+				A6F0AF0327D2DB080051197E /* Container+ViewModels.swift in Sources */,
+				A6F0AF1A27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +584,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F0AF1B27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */,
+				A6F0AF1027D2DB080051197E /* Container+Coordinators.swift in Sources */,
+				A6F0AF0427D2DB080051197E /* Container+ViewModels.swift in Sources */,
+				A6F0AF2427D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */,
+				A6F0AF1327D2DB080051197E /* Container+Repositories.swift in Sources */,
+				A6F0AF0A27D2DB080051197E /* Container+Services.swift in Sources */,
+				A6F0AF2827D2EB650051197E /* SaryHomeRepository.swift in Sources */,
+				A6F0AF0727D2DB080051197E /* Container+RegisterDependencies.swift in Sources */,
+				A6F0AF1727D2E3750051197E /* SaryHomeApi.swift in Sources */,
+				A6F0AF1F27D2E4B70051197E /* MoyaConfiguration.swift in Sources */,
 				A6862DD927CFB22E00129FE3 /* Sary_flagship_iOS_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +603,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6862DE327CFB22E00129FE3 /* Sary_flagship_iOS_AppUITests.swift in Sources */,
+				A6F0AF1C27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */,
+				A6F0AF0B27D2DB080051197E /* Container+Services.swift in Sources */,
+				A6F0AF1127D2DB080051197E /* Container+Coordinators.swift in Sources */,
+				A6F0AF2927D2EB650051197E /* SaryHomeRepository.swift in Sources */,
+				A6F0AF0827D2DB080051197E /* Container+RegisterDependencies.swift in Sources */,
+				A6F0AF2527D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */,
+				A6F0AF1827D2E3750051197E /* SaryHomeApi.swift in Sources */,
+				A6F0AF1427D2DB080051197E /* Container+Repositories.swift in Sources */,
 				A6862DE527CFB22E00129FE3 /* Sary_flagship_iOS_AppUITestsLaunchTests.swift in Sources */,
+				A6F0AF0527D2DB080051197E /* Container+ViewModels.swift in Sources */,
+				A6F0AF2027D2E4B70051197E /* MoyaConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +703,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -571,7 +758,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -589,7 +776,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SHN4T4ME84;
+				DEVELOPMENT_TEAM = Q6V8Q8744Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sary flagship iOS App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -618,7 +805,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SHN4T4ME84;
+				DEVELOPMENT_TEAM = Q6V8Q8744Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sary flagship iOS App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
