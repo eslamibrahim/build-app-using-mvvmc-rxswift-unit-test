@@ -15,6 +15,8 @@ class MockSaryHomeRepository : SaryHomeRepository{
         self.saryHomeMockService = saryHomeMockService
     }
     
+    
+    
     func getBanners() -> Single<ObjectResponse<[Banner]>> {
         saryHomeMockService.getBanners()
     }

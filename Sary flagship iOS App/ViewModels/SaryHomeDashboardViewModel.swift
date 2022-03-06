@@ -56,28 +56,5 @@ class SaryHomeDashboardViewModel  : BaseViewModel{
         self.tableViewItemsData.accept(items)
     }
     
-//
-//    func getBanners() {
-////        self.showLoadingInd()
-////        repo.getBanners().subscribe(onSuccess: { [weak self] res in
-////            self?.hideLoadingInd()
-////            self?.banners.accept(res.result ?? [])
-////        }, onError: {[weak self] err in
-////            self?.hideLoadingInd()
-////            self?.error.onNext(err)
-////        }).disposed(by: dispose)
-//    }
-//
-//    func getCategoriesGroups() {
-//
-////        self.showLoadingInd()
-////        repo.getCategoriesGroup().subscribe(onSuccess: { [weak self] res in
-////            self?.hideLoadingInd()
-////            self?.categoriesGroups.accept(res.result ?? [])
-////        }, onError: {[weak self] err in
-////            self?.hideLoadingInd()
-////            self?.error.onNext(err)
-////        }).disposed(by: dispose)
-//    }
     
 }

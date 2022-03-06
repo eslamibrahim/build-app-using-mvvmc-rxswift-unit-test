@@ -3,4 +3,54 @@
    uuid = "F469524F-4DDA-4B87-A18B-B38DAA98C42A"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E7BCAAA-D775-434B-B79E-2C0B8E6DABCF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sary flagship iOS App/ViewModels/SaryHomeDashboardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getSaryHomeUIInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E7BCAAA-D775-434B-B79E-2C0B8E6DABCF - d58cb308c5188bf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (RxSwift.Event&lt;(Sary_flagship_iOS_App.ObjectResponse&lt;Swift.Array&lt;Sary_flagship_iOS_App.Banner&gt;&gt;, Sary_flagship_iOS_App.ObjectResponse&lt;Swift.Array&lt;Sary_flagship_iOS_App.Group&gt;&gt;)&gt;) -&gt; () in Sary_flagship_iOS_App.SaryHomeDashboardViewModel.getSaryHomeUIInfo() -&gt; ()"
+                  moduleName = "Sary flagship iOS App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/islam/Desktop/Sary%20flagship%20iOS%20App/Sary%20flagship%20iOS%20App/ViewModels/SaryHomeDashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "437">
+               </Location>
+               <Location
+                  uuid = "6E7BCAAA-D775-434B-B79E-2C0B8E6DABCF - f40adbf841b99059"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (RxSwift.Event&lt;(Sary_flagship_iOS_AppTests.ObjectResponse&lt;Swift.Array&lt;Sary_flagship_iOS_AppTests.Banner&gt;&gt;, Sary_flagship_iOS_AppTests.ObjectResponse&lt;Swift.Array&lt;Sary_flagship_iOS_AppTests.Group&gt;&gt;)&gt;) -&gt; () in Sary_flagship_iOS_AppTests.SaryHomeDashboardViewModel.getSaryHomeUIInfo() -&gt; ()"
+                  moduleName = "Sary flagship iOS AppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/islam/Desktop/Sary%20flagship%20iOS%20App/Sary%20flagship%20iOS%20App/ViewModels/SaryHomeDashboardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "437">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
