@@ -3,6 +3,7 @@ PODS:
   - Kingfisher (5.15.8):
     - Kingfisher/Core (= 5.15.8)
   - Kingfisher/Core (5.15.8)
+  - MOLH (1.4.3)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (14.0.0):
@@ -24,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5.4.0)
   - Kingfisher (~> 5.15.8)
+  - MOLH
   - Moya/RxSwift (~> 14.0.0)
   - RxCocoa (~> 5)
   - RxGesture (~> 3.0)
@@ -35,6 +37,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - Kingfisher
+    - MOLH
     - Moya
     - RxCocoa
     - RxGesture
@@ -46,6 +49,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
   RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
@@ -54,6 +58,6 @@ SPEC CHECKSUMS:
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   SwinjectAutoregistration: 330f5012642a8b5c89a8a4adb0c5e52df07382c0
 
-PODFILE CHECKSUM: 3662cf73c00812cde99356cafaf22d85ea277813
+PODFILE CHECKSUM: a093ef0956b294f395ac28c37ebf9285dfc1d647
 
 COCOAPODS: 1.11.2

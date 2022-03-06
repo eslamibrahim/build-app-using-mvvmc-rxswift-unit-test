@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ContainerCollectionViewTableViewCell" rowHeight="208" id="KGk-i7-Jjw" customClass="ContainerCollectionViewTableViewCell" customModule="Sary_flagship_iOS_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="472" height="208"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="472" height="208"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIN-ZB-Q1t">
+                        <rect key="frame" x="8" y="8" width="456" height="192"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lxX-bC-Fov" customClass="SelfSizeCollectionView" customModule="Sary_flagship_iOS_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="36.5" width="456" height="147.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="147.5" id="0Pq-LK-QFm"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FNR-dy-RUb">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa8-Vt-zEd">
+                                <rect key="frame" x="8" y="8" width="440" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Rby-3I-8kf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lxX-bC-Fov" firstAttribute="top" secondItem="oa8-Vt-zEd" secondAttribute="bottom" constant="8" id="Ais-Vd-ULQ"/>
+                            <constraint firstItem="oa8-Vt-zEd" firstAttribute="leading" secondItem="TIN-ZB-Q1t" secondAttribute="leading" constant="8" id="Yow-Gl-O73"/>
+                            <constraint firstAttribute="trailing" secondItem="lxX-bC-Fov" secondAttribute="trailing" id="dmF-8u-6CB"/>
+                            <constraint firstAttribute="trailing" secondItem="oa8-Vt-zEd" secondAttribute="trailing" constant="8" id="nkd-UH-lrx"/>
+                            <constraint firstAttribute="bottom" secondItem="lxX-bC-Fov" secondAttribute="bottom" constant="8" id="oHh-s0-2dn"/>
+                            <constraint firstItem="oa8-Vt-zEd" firstAttribute="top" secondItem="TIN-ZB-Q1t" secondAttribute="top" constant="8" id="qmJ-xD-UES"/>
+                            <constraint firstItem="lxX-bC-Fov" firstAttribute="leading" secondItem="TIN-ZB-Q1t" secondAttribute="leading" id="zO5-sz-oq0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TIN-ZB-Q1t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="JVY-Qj-7UZ"/>
+                    <constraint firstItem="TIN-ZB-Q1t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="QSW-4i-XNK"/>
+                    <constraint firstAttribute="trailing" secondItem="TIN-ZB-Q1t" secondAttribute="trailing" constant="8" id="hW8-GX-tKT"/>
+                    <constraint firstAttribute="bottom" secondItem="TIN-ZB-Q1t" secondAttribute="bottom" constant="8" id="ixb-Si-fjk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionHeightConstrant" destination="0Pq-LK-QFm" id="iT3-W5-5Jm"/>
+                <outlet property="collectionView" destination="lxX-bC-Fov" id="eOy-Et-gMt"/>
+                <outlet property="lblTitle" destination="oa8-Vt-zEd" id="FRd-f1-snk"/>
+            </connections>
+            <point key="canvasLocation" x="247.82608695652175" y="120.53571428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

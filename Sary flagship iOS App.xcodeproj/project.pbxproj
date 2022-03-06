@@ -58,6 +58,18 @@
 		A6F4DBC427D37C2300533A5B /* TabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC327D37C2300533A5B /* TabBarConfiguration.swift */; };
 		A6F4DBC627D37DF300533A5B /* SaryHomeCoordinatoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC527D37DF300533A5B /* SaryHomeCoordinatoor.swift */; };
 		A6F4DBC827D387D700533A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC727D387D700533A5B /* SceneDelegate.swift */; };
+		A6F4DBCA27D3FF7100533A5B /* SelfSizeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBC927D3FF7100533A5B /* SelfSizeTableView.swift */; };
+		A6F4DBD027D4021B00533A5B /* BannersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBCE27D4021B00533A5B /* BannersTableCell.swift */; };
+		A6F4DBD127D4021B00533A5B /* BannersTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4DBCF27D4021B00533A5B /* BannersTableCell.xib */; };
+		A6F4DBD527D40A9A00533A5B /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBD327D40A9A00533A5B /* BannerCollectionViewCell.swift */; };
+		A6F4DBD627D40A9A00533A5B /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4DBD427D40A9A00533A5B /* BannerCollectionViewCell.xib */; };
+		A6F4DBDA27D4174000533A5B /* ContainerCollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBD827D4174000533A5B /* ContainerCollectionViewTableViewCell.swift */; };
+		A6F4DBDB27D4174000533A5B /* ContainerCollectionViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4DBD927D4174000533A5B /* ContainerCollectionViewTableViewCell.xib */; };
+		A6F4DBDF27D4259400533A5B /* SmartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBDD27D4259400533A5B /* SmartCollectionViewCell.swift */; };
+		A6F4DBE027D4259400533A5B /* SmartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4DBDE27D4259400533A5B /* SmartCollectionViewCell.xib */; };
+		A6F4DBE427D427BD00533A5B /* GroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBE227D427BD00533A5B /* GroupCollectionViewCell.swift */; };
+		A6F4DBE527D427BD00533A5B /* GroupCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4DBE327D427BD00533A5B /* GroupCollectionViewCell.xib */; };
+		A6F4DBE727D42A8F00533A5B /* SelfSizeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4DBE627D42A8E00533A5B /* SelfSizeCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +128,18 @@
 		A6F4DBC327D37C2300533A5B /* TabBarConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarConfiguration.swift; sourceTree = "<group>"; };
 		A6F4DBC527D37DF300533A5B /* SaryHomeCoordinatoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaryHomeCoordinatoor.swift; sourceTree = "<group>"; };
 		A6F4DBC727D387D700533A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6F4DBC927D3FF7100533A5B /* SelfSizeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizeTableView.swift; sourceTree = "<group>"; };
+		A6F4DBCE27D4021B00533A5B /* BannersTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersTableCell.swift; sourceTree = "<group>"; };
+		A6F4DBCF27D4021B00533A5B /* BannersTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannersTableCell.xib; sourceTree = "<group>"; };
+		A6F4DBD327D40A9A00533A5B /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6F4DBD427D40A9A00533A5B /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		A6F4DBD827D4174000533A5B /* ContainerCollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		A6F4DBD927D4174000533A5B /* ContainerCollectionViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerCollectionViewTableViewCell.xib; sourceTree = "<group>"; };
+		A6F4DBDD27D4259400533A5B /* SmartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6F4DBDE27D4259400533A5B /* SmartCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmartCollectionViewCell.xib; sourceTree = "<group>"; };
+		A6F4DBE227D427BD00533A5B /* GroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6F4DBE327D427BD00533A5B /* GroupCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCollectionViewCell.xib; sourceTree = "<group>"; };
+		A6F4DBE627D42A8E00533A5B /* SelfSizeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizeCollectionView.swift; sourceTree = "<group>"; };
 		BDE6F1C3ADB51EB64C596313 /* Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests/Pods-Sary flagship iOS App-Sary flagship iOS AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7F3E25FB819AE67841AD33D /* Pods_Sary_flagship_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sary_flagship_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8758256C963E13361346C80 /* Pods-Sary flagship iOS AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sary flagship iOS AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sary flagship iOS AppTests/Pods-Sary flagship iOS AppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +223,7 @@
 			children = (
 				A6862DC127CFB22B00129FE3 /* AppDelegate.swift */,
 				A6F4DBC727D387D700533A5B /* SceneDelegate.swift */,
+				A6F4DBCB27D3FF7600533A5B /* Utilities */,
 				A6F4DBBE27D37B2E00533A5B /* Coordinator */,
 				A6F0AEFC27D2DB080051197E /* Dependency Injection */,
 				A6F0AEF127D2CA6B0051197E /* DataLayer */,
@@ -233,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				A6862DC527CFB22B00129FE3 /*  SaryHomeViewController.swift */,
+				A6F4DBCC27D401DD00533A5B /* HomeCells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +340,72 @@
 				A6F4DBC027D37B5800533A5B /* BaseCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A6F4DBCB27D3FF7600533A5B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBE627D42A8E00533A5B /* SelfSizeCollectionView.swift */,
+				A6F4DBC927D3FF7100533A5B /* SelfSizeTableView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A6F4DBCC27D401DD00533A5B /* HomeCells */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBE127D427A200533A5B /* GroupCell */,
+				A6F4DBDC27D4257D00533A5B /* SmartCell */,
+				A6F4DBD727D416F300533A5B /* ContainerCollectionViewTableViewCell */,
+				A6F4DBCD27D401EA00533A5B /* BannerContainerTableCell */,
+				A6F4DBD227D40A7900533A5B /* BannerCollectionCell */,
+			);
+			path = HomeCells;
+			sourceTree = "<group>";
+		};
+		A6F4DBCD27D401EA00533A5B /* BannerContainerTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBCE27D4021B00533A5B /* BannersTableCell.swift */,
+				A6F4DBCF27D4021B00533A5B /* BannersTableCell.xib */,
+			);
+			path = BannerContainerTableCell;
+			sourceTree = "<group>";
+		};
+		A6F4DBD227D40A7900533A5B /* BannerCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBD327D40A9A00533A5B /* BannerCollectionViewCell.swift */,
+				A6F4DBD427D40A9A00533A5B /* BannerCollectionViewCell.xib */,
+			);
+			path = BannerCollectionCell;
+			sourceTree = "<group>";
+		};
+		A6F4DBD727D416F300533A5B /* ContainerCollectionViewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBD827D4174000533A5B /* ContainerCollectionViewTableViewCell.swift */,
+				A6F4DBD927D4174000533A5B /* ContainerCollectionViewTableViewCell.xib */,
+			);
+			path = ContainerCollectionViewTableViewCell;
+			sourceTree = "<group>";
+		};
+		A6F4DBDC27D4257D00533A5B /* SmartCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBDD27D4259400533A5B /* SmartCollectionViewCell.swift */,
+				A6F4DBDE27D4259400533A5B /* SmartCollectionViewCell.xib */,
+			);
+			path = SmartCell;
+			sourceTree = "<group>";
+		};
+		A6F4DBE127D427A200533A5B /* GroupCell */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4DBE227D427BD00533A5B /* GroupCollectionViewCell.swift */,
+				A6F4DBE327D427BD00533A5B /* GroupCollectionViewCell.xib */,
+			);
+			path = GroupCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,9 +517,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F4DBE527D427BD00533A5B /* GroupCollectionViewCell.xib in Resources */,
 				A6862DCE27CFB22E00129FE3 /* LaunchScreen.storyboard in Resources */,
 				A6862DCB27CFB22E00129FE3 /* Assets.xcassets in Resources */,
+				A6F4DBE027D4259400533A5B /* SmartCollectionViewCell.xib in Resources */,
+				A6F4DBDB27D4174000533A5B /* ContainerCollectionViewTableViewCell.xib in Resources */,
 				A6862DC927CFB22B00129FE3 /* Main.storyboard in Resources */,
+				A6F4DBD127D4021B00533A5B /* BannersTableCell.xib in Resources */,
+				A6F4DBD627D40A9A00533A5B /* BannerCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,10 +654,13 @@
 			files = (
 				A6862DC627CFB22B00129FE3 /*  SaryHomeViewController.swift in Sources */,
 				A6F0AF1227D2DB080051197E /* Container+Repositories.swift in Sources */,
+				A6F4DBCA27D3FF7100533A5B /* SelfSizeTableView.swift in Sources */,
 				A6F0AF1627D2E3750051197E /* SaryHomeApi.swift in Sources */,
+				A6F4DBDF27D4259400533A5B /* SmartCollectionViewCell.swift in Sources */,
 				A6F0AF0627D2DB080051197E /* Container+RegisterDependencies.swift in Sources */,
 				A6F4DBBD27D3795400533A5B /* BaseViewModel.swift in Sources */,
 				A6F4DBC627D37DF300533A5B /* SaryHomeCoordinatoor.swift in Sources */,
+				A6F4DBE427D427BD00533A5B /* GroupCollectionViewCell.swift in Sources */,
 				A6F0AEFB27D2CDC80051197E /* CategoryModel.swift in Sources */,
 				A6F4DBC827D387D700533A5B /* SceneDelegate.swift in Sources */,
 				A6F0AF2327D2E7EC0051197E /* SaryHomeDashboardViewModel.swift in Sources */,
@@ -572,9 +672,13 @@
 				A6F0AF2727D2EB650051197E /* SaryHomeRepository.swift in Sources */,
 				A6F0AEF727D2CB520051197E /* BannerModel.swift in Sources */,
 				A6F4DBC227D37B5800533A5B /* BaseCoordinator.swift in Sources */,
+				A6F4DBD527D40A9A00533A5B /* BannerCollectionViewCell.swift in Sources */,
 				A6F4DBC127D37B5800533A5B /* AppCoordinator.swift in Sources */,
+				A6F4DBD027D4021B00533A5B /* BannersTableCell.swift in Sources */,
 				A6F0AEF927D2CBD40051197E /* GenericResponseModel.swift in Sources */,
+				A6F4DBDA27D4174000533A5B /* ContainerCollectionViewTableViewCell.swift in Sources */,
 				A6F4DBC427D37C2300533A5B /* TabBarConfiguration.swift in Sources */,
+				A6F4DBE727D42A8F00533A5B /* SelfSizeCollectionView.swift in Sources */,
 				A6F0AF0327D2DB080051197E /* Container+ViewModels.swift in Sources */,
 				A6F0AF1A27D2E4470051197E /* SaryHomeRemoteServiceManager.swift in Sources */,
 			);

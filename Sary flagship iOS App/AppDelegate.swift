@@ -9,8 +9,9 @@ import UIKit
 import RxCocoa
 import RxSwift
 import Swinject
+import MOLH
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate , MOLHResetable{
 
     var window: UIWindow?
     static let container = Container()
@@ -20,10 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         AppDelegate.container.registerDependencies()
-        setupRootView()
+        MOLHLanguage.setDefaultLanguage("ar")
+        MOLH.shared.activate(true)
+        reset()
         return true
     }
-
+    func reset() {
+        setupRootView()
+    }
+    
     func setupRootView() {
         appCoordinator = AppCoordinator(window: UIApplication.shared.keyWindow ?? UIWindow(frame: UIScreen.main.bounds))
         appCoordinator?.start()

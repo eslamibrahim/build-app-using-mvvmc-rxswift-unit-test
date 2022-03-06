@@ -19,7 +19,7 @@ struct Banner: Codable {
     var link, level: String?
     var isAvailable: Bool?
     var branch: Int?
-
+    let dataType  = "banner"
     enum CodingKeys: String, CodingKey {
         case id, title
         case resultDescription = "description"

@@ -59,3 +59,10 @@ struct Filter: Codable {
         case name
     }
 }
+
+
+enum GroupDataType  : String{
+    case banner
+    case group
+    case smart
+}

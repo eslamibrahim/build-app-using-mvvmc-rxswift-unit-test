@@ -15,7 +15,7 @@ target 'Sary flagship iOS App' do
   pod 'Moya/RxSwift', '~> 14.0.0'
   pod 'Swinject', '~> 2.7.1'
   pod 'SwinjectAutoregistration', '~> 2.7.0'
-
+  pod 'MOLH'
   target 'Sary flagship iOS AppTests' do
     inherit! :search_paths
     # Pods for testing
