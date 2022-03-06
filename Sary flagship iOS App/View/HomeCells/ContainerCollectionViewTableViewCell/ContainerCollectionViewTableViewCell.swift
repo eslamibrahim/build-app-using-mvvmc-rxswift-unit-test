@@ -31,12 +31,7 @@ class ContainerCollectionViewTableViewCell: UITableViewCell, UIScrollViewDelegat
         }
     }
     var disposeBag = DisposeBag()
-    var cellActionsDisposeBag = DisposeBag()
-    
-    override func prepareForReuse() {
-        cellActionsDisposeBag = DisposeBag()
-    }
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -49,6 +44,7 @@ class ContainerCollectionViewTableViewCell: UITableViewCell, UIScrollViewDelegat
         
         // Configure the view for the selected state
     }
+    
     func setupUI (){
         collectionView.register(UINib(nibName: "BannerCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "BannerCollectionViewCell")
         collectionView.register(UINib(nibName: "SmartCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "SmartCollectionViewCell")

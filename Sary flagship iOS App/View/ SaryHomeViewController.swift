@@ -32,6 +32,7 @@ class  SaryHomeViewController: UIViewController {
     }
     
     func bindUI(){
+
         viewModel.tableViewItemsData.bind(to: tableView.rx.items) { [weak self]
             (tableView , index, element) in
             if let data = element.banners {
@@ -70,6 +71,11 @@ class  SaryHomeViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
         }))
         self.present(alert, animated: true, completion: nil)
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { [weak self] in
+            self?.tableView.reloadData()
+        }
     }
 }
 
