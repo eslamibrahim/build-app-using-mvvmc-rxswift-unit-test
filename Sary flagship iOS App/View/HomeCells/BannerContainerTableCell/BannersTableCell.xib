@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -34,13 +33,19 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                             </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="vhc-Ak-uEN">
+                                <rect key="frame" x="180" y="131" width="116" height="26"/>
+                                <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="vhc-Ak-uEN" firstAttribute="centerX" secondItem="3Su-OA-CnF" secondAttribute="centerX" id="Isf-3C-ys1"/>
                             <constraint firstItem="BFB-k5-5ov" firstAttribute="leading" secondItem="3Su-OA-CnF" secondAttribute="leading" constant="8" id="PBl-5p-rJY"/>
                             <constraint firstItem="BFB-k5-5ov" firstAttribute="top" secondItem="3Su-OA-CnF" secondAttribute="top" id="gRl-8K-gxd"/>
                             <constraint firstAttribute="bottom" secondItem="BFB-k5-5ov" secondAttribute="bottom" id="gwV-ba-M5C"/>
                             <constraint firstAttribute="trailing" secondItem="BFB-k5-5ov" secondAttribute="trailing" constant="8" id="vrB-d0-gG2"/>
+                            <constraint firstAttribute="bottom" secondItem="vhc-Ak-uEN" secondAttribute="bottom" constant="8" id="wFY-kp-qPn"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -54,6 +59,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="collectionView" destination="BFB-k5-5ov" id="9Ww-EK-M4G"/>
+                <outlet property="pageView" destination="vhc-Ak-uEN" id="lvX-ok-qn1"/>
             </connections>
             <point key="canvasLocation" x="242" y="148"/>
         </tableViewCell>

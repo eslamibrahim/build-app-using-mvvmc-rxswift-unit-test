@@ -38,9 +38,10 @@ class  SaryHomeViewController: UIViewController {
             if let data = element.banners {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "BannersTableCell", for:IndexPath(row: index, section: 0)) as! BannersTableCell
                 cell.collectionDataSource.accept(data)
-                cell.itemDidSelectd.bind {[weak self] item in
+                cell.itemDidSelectd = {[weak self] item in
                     self?.showAlert(message : item.link ?? "")
-                }.disposed(by: cell.cellActionsDisposeBag)
+                }
+                cell.buildSlider()
                 return cell
             }else if let data = element.categoriesGroups {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "ContainerCollectionViewTableViewCell", for:IndexPath(row: index, section: 0)) as! ContainerCollectionViewTableViewCell
